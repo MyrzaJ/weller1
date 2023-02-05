@@ -1,0 +1,184 @@
+.pageone{
+  background: url('https://i.ibb.co/JdQkkJ4/unsplash-iec-Ji-Ke-RNg.jpg');
+}
+
+
+
+.arrow {
+  color: white;
+  padding: 250px;
+  animation: myArrow 0.5s infinite;
+
+}
+
+
+  @keyframes myArrow {
+    0% {
+      transform: translateY(-5px);
+    }
+  }
+  .logo{
+    display: inline-flex;
+    justify-content: center;
+    width: 130px;
+    margin: 0;
+    padding-top: 50px;
+  }
+ 
+  .pageto{
+    
+    background: url('https://i.ibb.co/sP70Tcf/unsplash-IZ2sg-QKIh-M.png');
+  }
+  .ourtours img{
+    width: 352px;
+    height: 248px;
+    border-radius: 10px;
+    margin: 60px  40px;
+   
+  }
+  /* .lorem{
+    margin: 10px;
+  } */
+  .ourtours1{
+    width: 352px;
+    height: 248px;
+    border-radius: 10px;
+    margin: 60px  40px;
+    background-image: url(https://www.travelkyrgyzstan.kg/wp-content/uploads/2021/06/kyrgyzstan_travel_slide_3_edited-min.jpg);
+  }
+  .ourtours1:hover .ratiing{
+    display: inline-block;
+    
+  }
+
+  .ourtours2{
+    width: 352px;
+    height: 248px;
+    border-radius: 10px;
+    margin: 60px  40px;
+    background-image: url(https://www.lostwithpurpose.com/wp-content/uploads/2020/03/DSC07805-2.jpg);
+  }
+  .ourtours2:hover .ratiing{
+    display: inline-block;
+    
+  }
+  .ourtours3{
+    width: 352px;
+    height: 248px;
+    border-radius: 10px;
+    margin: 60px  40px;
+    background-image: url(https://gimli.freetls.fastly.net/vivitravels/content/1024x680/destinazioni/stati/turkmenistan/citta/ashgabat/viaggi/bcfe6e63-b17f-402d-9a62-a727cd1be462/images/kyrgyzstan-young-woman.jpg);
+  }
+  .ourtours3:hover .ratiing{
+    display: inline-block;
+    
+  }
+  .ourtours4{
+    width: 352px;
+    height: 248px;
+    border-radius: 10px;
+    margin: 60px  40px;
+    background-image: url(https://www.travelkyrgyzstan.kg/wp-content/uploads/2021/06/kyrgyzstan_travel_slide_3_edited-min.jpg);
+  }
+  
+  .ourtours4:hover .ratiing{
+    display: inline-block;
+    
+  }
+
+  .ourtours5{
+    width: 352px;
+    height: 248px;
+    border-radius: 10px;
+    margin: 60px  40px;
+    background-image: url(https://www.travelkyrgyzstan.kg/wp-content/uploads/2021/06/kyrgyzstan_travel_slide_3_edited-min.jpg);
+  }
+  
+  .ourtours5:hover .ratiing{
+    display: inline-block;
+    
+  }
+  .ourtours6{
+    width: 352px;
+    height: 248px;
+    border-radius: 10px;
+    margin: 60px  40px;
+    background-image: url(https://www.travelkyrgyzstan.kg/wp-content/uploads/2021/06/kyrgyzstan_travel_slide_3_edited-min.jpg);
+  }
+  
+  .ourtours6:hover .ratiing{
+    display: inline-block;
+  }
+
+  
+.rus{
+  display: flex;
+  margin: 10px;
+}
+  .ratiing{
+    width: 352px;
+    height: 86px;
+    background-color: rgba(0, 0, 0, 0.4);
+    list-style: none;
+    display: none;
+    /* justify-content: first baseline; */
+    /* display: none; */
+    flex-wrap: wrap;
+    opacity: 0.9;
+    filter: alpha(opacity=30);
+    margin-top: 163px;
+    border-radius: 0 0 10px 10px;
+    color: aliceblue;
+  }
+
+
+  .tur {
+    display: inline-flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    justify-content: center;
+    
+  }
+  .themes2{
+    padding: 51px;
+    color: #000;
+  }
+  h1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 500;
+  
+  }
+  .cards {
+
+    display: inline-flex;
+    flex-wrap: wrap;}
+
+ div img {
+    margin: 0 70px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    box-shadow: 5px 10px 15px rgb(34, 34, 34);
+    /* width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    box-shadow: 5px 10px 15px rgb(34, 34, 34); */
+  }
+
+
+  h4 {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 50px;
+    color: rgb(175, 175, 175);
+    transition: .2s all ease-in;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.themes3{
+  margin: 50px;
+}
+
+
