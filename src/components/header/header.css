@@ -1,0 +1,193 @@
+.topHeader{
+background-color: #222529;
+height: 40px;
+display: flex;
+justify-content: space-between;
+padding: 0 15%;
+align-items: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.language{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: 
+    #bde1f5;
+    font-size: 11px;
+}
+.navTopHeader{
+    color: 
+    #bde1f5;
+    margin: 0 5px;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Navigations{
+    display: flex;
+}
+.vbnumber{
+    color: white;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+li{
+    text-decoration: none;
+    list-style-type:none;
+}
+.social{
+display: flex;
+padding: 10px;
+align-items: center;
+}
+.Viber{
+    display: block;
+}
+.vb{
+    color: #bde1f5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 10px;
+}
+.downHeader{
+    height: 90px !important;
+    background-color: #495259 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 15%;
+}
+.socialLinks{
+    display: flex;
+}
+.searchblock{
+    display: flex;
+    width: 520px;
+}
+.selected{
+    width: 100px;
+    height: 42px;
+    background-color: rgb(255, 255, 255);
+    border-left: 1px solid #cfcfcf;
+    border-right: 1px solid #cfcfcf ;
+    font-size: 10px;
+    align-items: center;
+    text-align: center;
+}
+.search{
+    height: 42px !important;
+    border: none;
+    border-radius:100px  0 0 100px ;
+    align-items: center;
+    width: 350px;
+}
+p{
+    margin-bottom: 0 !important;
+}
+.seearchIcon{
+    width:50px ;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 100px 100px 0;
+}
+.burg{
+    display: none;
+}
+
+.telega{
+    display: flex;
+}
+::placeholder{
+
+    padding: 15px;
+    
+    }
+
+
+.navi{
+    padding: 15px 0 15px 240px;
+}
+
+
+
+
+
+
+
+
+@media (max-width:1024px) {
+    .topHeader{
+        padding: 0 5%;
+    }
+    .downHeader{
+        padding: 0 1%;
+    }
+}
+
+@media (max-width:780px){
+    .Navigations{
+        display: none;
+    }
+    
+    .topHeader{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .searchblock{
+        display: none;
+    }
+
+    .telega{
+        display: none;
+    }
+    .downHeader{
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5%;
+    }
+    .logo{
+        width: 100px;
+        height: 30px;
+        padding: 0%;
+    }
+
+    .burg{
+        display: flex;
+    }
+    .navi{
+        display: none;
+    }
+}
+
+@media (max-width:600px){
+    .Navigations{
+        display: none;
+    }
+    
+    .topHeader{
+        padding: 0 5%;
+    }
+    .searchblock{
+        display: none;
+    }
+
+    .telega{
+        display: none;
+    }
+    .downHeader{
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5%;
+    }
+    .logo{
+        width: 100px;
+        height: 30px;
+        padding: 0%;
+    }
+
+    .burg{
+        display: flex;
+    }
+    .navi{
+        display: none;
+    }
+}
